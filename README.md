@@ -24,7 +24,7 @@ installation instructions.
 ### Building from source
 If you want to build the library from source, or can't obtain any
 pre-built copies of the library, then this section is for you. Go
-to libdaemon's [official github repository](https://www.github.com/rsdate/libdaemon) and navigate to Releases. Then decompress the tarball and run the following commands to build and install the library:
+to libdaemon's [official github repository](https://www.github.com/rsdate/libdaemon) and navigate to Releases. Once you have installed the tarball, then decompress it and run the following commands to build and install the library:
 ```
 cd libdaemon-0.0.1
 make 
