@@ -50,6 +50,13 @@ int (*func_ptr)(void) = &func;
 daemonize(func_ptr);
 ...
 ```
-When you compile your project and run it, your project will run as
-a daemon process and in the backround. The library will also print
-the pid (process id) of the daemon process.
+In order to actually use the library, you will need to link it with the program.
+Use the commands below to link the library with your program:
+```
+$CC main.c -Wall -Werror -ldaemon -o main
+```
+When you run you project, it will run as a daemon process
+and in the backround. The library will also print the pid 
+(process id) of the daemon process.
+## Notes
+* In the above section, replace ```$CC``` with you preferred C compiler.
