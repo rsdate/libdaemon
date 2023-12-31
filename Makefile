@@ -4,6 +4,7 @@ DIST_NAME := libdaemon-${VERSION}
 all: daemon
 
 daemon: ./src/daemon/daemon.c
+	@mkdir ./lib/
 	@clang -c $^
 	@ar -rc lib$@.a $@.o
 	@mv lib$@.a ./lib/lib$@.a
