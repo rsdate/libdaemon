@@ -29,9 +29,11 @@ to libdaemon's [official github repository](https://www.github.com/rsdate/libdae
 cd libdaemon-0.0.1
 make 
 sudo make install
-``` 
-If the installation is a success, then the message ```libdaemon
-installed successfully!``` will be printed to your terminal. 
+```
+After the ```make``` step, you will see ```libdaemon compiled
+successfully``` in your terminal window if libdaemon was compiled successfully. After
+the ```make install``` step, the message ```libdaemon installed successfully!``` will be printed to your terminal
+if the installation was successful.
 ## Usage
 Once you have installed the program, you can include the header
 file in your project:
